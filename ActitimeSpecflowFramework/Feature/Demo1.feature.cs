@@ -86,6 +86,28 @@ testRunner.Then("Verify Title of Google Page", ((string)(null)), ((TechTalk.Spec
 #line hidden
             this.ScenarioCleanup();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Verify Google Page Search Box")]
+        public virtual void VerifyGooglePageSearchBox()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify Google Page Search Box", null, ((string[])(null)));
+#line 8
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 9
+testRunner.Given("open the browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 10
+testRunner.When("Enter the Url", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
+testRunner.And("Enter the Text in Search box", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 12
+testRunner.And("Click on Search button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 13
+testRunner.Then("Verify the Text", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
     }
 }
 #pragma warning restore
