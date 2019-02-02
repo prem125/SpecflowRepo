@@ -32,6 +32,23 @@ namespace ActitimeSpecflowFramework.StepDefinition
             String title = driver.Title;
             Assert.AreEqual(title, "Google");
         }
+        [When(@"Enter the Text in Search box")]
+        public void WhenEnterTheTextInSearchBox()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [When(@"Click on Search button")]
+        public void WhenClickOnSearchButton()
+        {
+            ScenarioContext.Current.Pending();
+        }
+
+        [Then(@"Verify the Text")]
+        public void ThenVerifyTheText()
+        {
+            ScenarioContext.Current.Pending();
+        }
 
     }
 }
